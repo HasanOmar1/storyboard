@@ -85,8 +85,8 @@ input{
     height: 35px;
     margin-bottom: 15px;
     background-color: darkgrey;
-    border: none;
-    border-radius: 3px;
+    
+    border-radius: 10px;
     color: darkblue;
     font-size: 30px;
 }
@@ -96,6 +96,19 @@ textarea{
     font-size: 30px;
     border-radius: 10px;
     color: darkblue;
+
+}
+
+textarea:focus{
+    outline: none;
+    border-color: darkgreen;
+}
+
+input:focus{
+    
+        outline: none;
+        border-color: darkgreen;
+    
 }
 
 .btn{
