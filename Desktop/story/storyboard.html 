@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/style.css">
+
+		<title>story board</title>
+	</head>
+	<body>
+
+      <div class="continer">
+
+				<div class="parent">
+
+
+				<div class="child">
+
+					<div class="pic1">
+
+							<img src="./images/pic1.jpg" alt="">
+         	</div>
+				</div>
+
+				<div class="child">
+					<div class="pic3">
+						<img src="./images/pic4.jpg" alt="">
+					</div>
+				</div>
+
+					</div>
+
+					<div class="parent">
+
+
+      <div class="child">
+      	<div class="pic2">
+      		<img src="./images/pic3.jpg" alt="">
+      	</div>
+      </div>
+
+
+			<div class="child">
+				<div class="pic4">
+					<img src="./images/pic2.jpg" alt="">
+				</div>
+			</div>
+</div>
+
+
+				</div>
+
+
+
+	</body>
+</html>
