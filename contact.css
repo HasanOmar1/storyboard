@@ -1,4 +1,20 @@
 
+.navbar{
+    position: flex;
+    padding-left: 50px;
+    font-size: 30px;
+    position: relative;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 50px;
+    position: sticky;
+   
+}
 
 body{
     
@@ -95,4 +111,5 @@ textarea{
 .btn:hover{
     background-color: darkcyan;
     color: white;
+    
 }
