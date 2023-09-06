@@ -8,22 +8,37 @@
     <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
-    <h1>Contact us</h1>
-    <p>
-      If you have any question or need help with something , dont hesitate
-      contacting us!
-    </p>
-    <br />
-    <form>
-      <input class="f-l-name">
-        <label for="Fname" class="name">First Name:</label>
-        <input type="text" class="input" />
-        <label for="Lname" class="name">Last Name:</label>
-        <input type="text" class="input" />
-        <label for="Lname" class="name">Gender:</label>
-        <input type="checkbox">Male</input>
-        <input type="checkbox">Female</input>
-      </div>
-    </form>
+    <div class="page">
+      <h1>Contact us</h1>
+      <p>
+        If you have any question or need help with something , dont hesitate
+        contacting us!
+      </p>
+      <br />
+      <form>
+        <div class="container">
+          <label for="Fname" class="fname">First Name:</label>
+          <input type="text" class="input" />
+          <label for="Lname" class="lname">Last Name:</label>
+          <input type="text" class="input" />
+          <br />
+          <label for="gender" class="gender">Gender:</label>
+          <select name="" id="">
+            <option value="empty"></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <br /><br /><br />
+          <label for="Topic" class="topic">Topic:</label>
+          <input type="text" />
+          <br />
+          <label for="text">Text:</label><br /><br />
+          <textarea name="" id="" cols="50" rows="10"> </textarea>
+
+          <input class="btn" type="submit" />
+          <input class="btn" type="reset" name="" id="" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>
