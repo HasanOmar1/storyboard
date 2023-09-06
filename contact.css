@@ -1,0 +1,47 @@
+body{
+    background-color: #fff;
+}
+
+
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+
+
+form{
+    padding-left: 100px;
+}
+
+.name{
+width: 30%;
+display: inline-block;
+
+}
+
+
+
+label{
+    
+    
+    font-size: 2rem;
+    margin-bottom: 15px;
+
+}  
+input{
+
+    display: block;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 3px;
+}
