@@ -5,6 +5,17 @@
     background-image: url('https://i.imgur.com/sh8Eu.png');
   }
   
+  body{
+  background-color: #FAEBD7;
+  }
+  
+  
+  
+  h1{
+    text-align: center;
+  }
+  
+  
   .pic1{
   
   margin-left: -200px;
