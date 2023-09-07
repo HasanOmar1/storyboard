@@ -1,29 +1,74 @@
+html { 
+    background: url(https://wallpaperaccess.com/full/3124511.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+header{
+    
+    display: flex;
+    align-items: left ;
+    position: sticky;
+    top: 0;
+   
+    
+    
+}
 
+.navbar{
+    
+    padding-left: 40px;
+    font-size: 30px;
+    position: sticky;
+    
+   
+    
+    
+}
+
+.navbar a{
+    float: left;;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 10px;
+    background-color: darkcyan;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+   
+}
+
+.navbar a:hover{
+    background-color: darkgreen;
+}
 
 body{
     
-    background-image: url(https://wallpaperaccess.com/full/3124511.jpg);
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    
+    
     color: darkorange;
    
 }
 
 .container{
     width: 900px;
-    
     position: relative;
     left: 20%;
 }
 
 h1{
+    color: greenyellow;
     font-size: 5rem;
     text-align: center;
     
 }
 
 p{
+    color: cyan;
     text-align: center;
     font-size: 1.7rem;
     margin-bottom: 7rem;
@@ -69,8 +114,8 @@ input{
     height: 35px;
     margin-bottom: 15px;
     background-color: darkgrey;
-    border: none;
-    border-radius: 3px;
+    
+    border-radius: 10px;
     color: darkblue;
     font-size: 30px;
 }
@@ -80,7 +125,21 @@ textarea{
     font-size: 30px;
     border-radius: 10px;
     color: darkblue;
+
 }
+
+textarea:focus{
+    outline: none;
+    border-color: darkgreen;
+}
+
+input:focus{
+    
+        outline: none;
+        border-color: darkgreen;
+    
+}
+
 
 .btn{
     margin-top: 10px;
@@ -89,10 +148,15 @@ textarea{
     width: 30%;
     margin-left: 100px;
     background-color: white;
+    height: 30%;
+    
     
 }
 
 .btn:hover{
     background-color: darkcyan;
     color: white;
+    
 }
+
+
